@@ -1,11 +1,11 @@
 {
-  "name": "custom:village/swamp/villagers",
+  "name": "custom:village\/swamp\/villagers",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "custom:village/swamp/villagers/nitwit",
+        "location": "custom:village\/swamp\/villagers\/nitwit",
         "processors": {
           "processors": []
         },
@@ -16,7 +16,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "custom:village/swamp/villagers/baby",
+        "location": "custom:village\/swamp\/villagers\/baby",
         "processors": {
           "processors": []
         },
@@ -27,7 +27,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "custom:village/swamp/villagers/unemployed",
+        "location": "custom:village\/swamp\/villagers\/unemployed",
         "processors": {
           "processors": []
         },

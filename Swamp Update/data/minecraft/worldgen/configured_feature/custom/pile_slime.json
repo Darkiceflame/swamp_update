@@ -1,0 +1,16 @@
+{
+  "config": {
+    "state_provider": {
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:slime_block"
+          }
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    }
+  },
+  "name": "minecraft:block_pile"
+}

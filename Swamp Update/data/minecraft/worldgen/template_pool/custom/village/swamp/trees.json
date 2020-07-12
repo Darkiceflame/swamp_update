@@ -1,11 +1,11 @@
 {
-  "name": "custom:village/swamp/trees",
+  "name": "custom:village\/swamp\/trees",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "feature": "minecraft:oak",
+        "feature": "custom:swamp_tree",
         "projection": "rigid",
         "element_type": "minecraft:feature_pool_element"
       }

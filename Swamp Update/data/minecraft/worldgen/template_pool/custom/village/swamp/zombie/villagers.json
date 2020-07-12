@@ -1,11 +1,11 @@
 {
-  "name": "custom:village/swamp/zombie/villagers",
+  "name": "custom:village\/swamp\/zombie\/villagers",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "custom:village/swamp/zombie/villagers/nitwit",
+        "location": "custom:village\/swamp\/zombie\/villagers\/nitwit",
         "processors": {
           "processors": []
         },
@@ -16,7 +16,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "custom:village/swamp/zombie/villagers/unemployed",
+        "location": "custom:village\/swamp\/zombie\/villagers\/unemployed",
         "processors": {
           "processors": []
         },

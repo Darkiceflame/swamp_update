@@ -7,7 +7,7 @@
       "Name": "minecraft:grass_block"
     },
     "under_material": {
-      "Name": "minecraft:dirt"
+      "Name": "minecraft:coarse_dirt"
     },
     "underwater_material": {
       "Name": "minecraft:clay"

@@ -1,11 +1,11 @@
 {
-  "name": "custom:village/swamp/decor",
+  "name": "custom:village\/swamp\/decor",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/swamp_lamp_1",
+        "location": "custom:village\/swamp\/swamp_lamp_1",
         "processors": {
           "processors": []
         },
@@ -16,7 +16,7 @@
     {
       "weight": 1,
       "element": {
-        "feature": "minecraft:oak",
+        "feature": "custom:swamp_tree",
         "projection": "rigid",
         "element_type": "minecraft:feature_pool_element"
       }

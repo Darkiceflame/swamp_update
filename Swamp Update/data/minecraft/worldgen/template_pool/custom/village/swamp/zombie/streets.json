@@ -1,12 +1,12 @@
 {
-  "name": "custom:village/swamp/zombie/streets",
-  "fallback": "custom:village/swamp/terminators",
+  "name": "custom:village\/swamp\/zombie\/streets",
+  "fallback": "custom:village\/swamp\/terminators",
   "elements": [
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/corner_01",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/corner_01",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -14,8 +14,8 @@
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/corner_02",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/corner_02",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -23,8 +23,8 @@
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/corner_03",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/corner_03",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -32,8 +32,8 @@
     {
       "weight": 4,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/straight_01",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/straight_01",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -41,8 +41,8 @@
     {
       "weight": 4,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/straight_02",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/straight_02",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -50,8 +50,8 @@
     {
       "weight": 7,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/straight_03",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/straight_03",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -59,8 +59,8 @@
     {
       "weight": 7,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/straight_04",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/straight_04",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -68,8 +68,8 @@
     {
       "weight": 3,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/straight_05",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/straight_05",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -77,8 +77,8 @@
     {
       "weight": 4,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/straight_06",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/straight_06",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -86,8 +86,8 @@
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/crossroad_01",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/crossroad_01",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -95,8 +95,8 @@
     {
       "weight": 1,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/crossroad_02",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/crossroad_02",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -104,8 +104,8 @@
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/crossroad_03",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/crossroad_03",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -113,8 +113,8 @@
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/crossroad_04",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/crossroad_04",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -122,8 +122,8 @@
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/crossroad_05",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/crossroad_05",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -131,8 +131,8 @@
     {
       "weight": 2,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/crossroad_06",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/crossroad_06",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -140,8 +140,8 @@
     {
       "weight": 3,
       "element": {
-        "location": "custom:village/swamp/zombie/streets/turn_01",
-        "processors": "minecraft:street_swamp",
+        "location": "custom:village\/swamp\/zombie\/streets\/turn_01",
+        "processors": "custom:street_swamp",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }

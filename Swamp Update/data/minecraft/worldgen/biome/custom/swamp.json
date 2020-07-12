@@ -9,9 +9,10 @@
     "water_ambient": [
       {
         "type": "minecraft:cod",
-        "weight": 10,
+        "weight": 30,
         "minCount": 3,
-        "maxCount": 6
+        "maxCount": 6,
+		"nbt": {Glowing:1b"}
       }
     ],
     "ambient": [
@@ -48,6 +49,12 @@
         "weight": 8,
         "minCount": 4,
         "maxCount": 4
+      },
+	  {
+        "type": "minecraft:mooshroom",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 3
       }
     ],
     "monster": [
@@ -101,15 +108,15 @@
       },
       {
         "type": "minecraft:slime",
-        "weight": 1,
+        "weight": 15,
         "minCount": 1,
         "maxCount": 1
       }
     ]
   },
   "spawn_costs": {},
-  "sky_color": 9198390,
-  "surface_builder": "minecraft:swamp",
+  "sky_color": 7575171,
+  "surface_builder": "custom:swamp",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -132,9 +139,6 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
@@ -146,12 +150,14 @@
     [],
     [
       "custom:swamp_tree",
+	  "custom:swamp_tree_big",
       "minecraft:flower_swamp",
-      "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",
       "minecraft:patch_waterlilly",
       "minecraft:brown_mushroom_swamp",
       "minecraft:red_mushroom_swamp",
+      "minecraft:brown_mushroom_giant",
+      "minecraft:red_mushroom_giant",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_swamp",
@@ -174,14 +180,14 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "fog_color": 7108437,
-    "water_color": 6965801,
+    "fog_color": 9419608,
+    "water_color": 6716746,
     "water_fog_color": 6519827,
 	"particle": {
       "options": {
-        "type": "minecraft:mycelium"
+        "type": "minecraft:end_rod"
       },
-      "probability": 0.018093334
+      "probability": 0.0018093334
     }
   },
   "precipitation": "rain",

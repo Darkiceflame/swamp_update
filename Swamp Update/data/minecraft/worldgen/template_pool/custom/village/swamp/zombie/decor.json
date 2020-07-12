@@ -1,12 +1,12 @@
 {
-  "name": "custom:village/swamp/zombie/decor",
+  "name": "custom:village\/swamp\/zombie\/decor",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "custom:village/swamp/swamp_lamp_1",
-        "processors": "minecraft:zombie_swamp",
+        "location": "custom:village\/swamp\/swamp_lamp_1",
+        "processors": "custom:zombie_swamp",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
       }
@@ -14,7 +14,7 @@
     {
       "weight": 1,
       "element": {
-        "feature": "minecraft:oak",
+        "feature": "custom:swamp_tree",
         "projection": "rigid",
         "element_type": "minecraft:feature_pool_element"
       }
