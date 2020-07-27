@@ -1,6 +1,6 @@
 {
   "processors": [
-    {
+	{
       "rules": [
         {
           "position_predicate": {

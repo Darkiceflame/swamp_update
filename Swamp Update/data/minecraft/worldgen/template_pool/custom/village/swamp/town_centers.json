@@ -24,9 +24,7 @@
       "weight": 50,
       "element": {
         "location": "custom:village\/swamp\/town_centers\/swamp_meeting_point_2",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:mossify_20_percent",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
       }

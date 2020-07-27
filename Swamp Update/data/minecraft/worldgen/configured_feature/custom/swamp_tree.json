@@ -22,7 +22,7 @@
         "Properties": {
           "axis": "y"
         },
-        "Name": "minecraft:stripped_dark_oak_wood"
+        "Name": "minecraft:dark_oak_wood"
       },
       "type": "minecraft:simple_state_provider"
     },
@@ -42,11 +42,11 @@
       "type": "minecraft:acacia_foliage_placer"
     },
     "trunk_placer": {
-      "base_height": 3,
+      "base_height": 5,
       "height_rand_a": 2,
-      "height_rand_b": 3,
+      "height_rand_b": 2,
       "type": "minecraft:forking_trunk_placer"
     }
   },
-  "name": "minecraft:tree"
+  "type": "minecraft:tree"
 }

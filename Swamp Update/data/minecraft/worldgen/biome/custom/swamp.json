@@ -1,62 +1,79 @@
 {
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "grass_color_modifier": "swamp",
+	"sky_color": 7575171,
+    "foliage_color": 6913828,
+    "fog_color": 9419608,
+    "water_color": 6189347,
+    "water_fog_color": 7772676
+  },
+  "surface_builder": "custom:swamp",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_water",
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:fossil",
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:disk_clay"
+    ],
+    [],
+    [
+      "custom:swamp_tree",
+      "minecraft:flower_swamp",
+      "minecraft:patch_dead_bush",
+      "minecraft:patch_waterlilly",
+      "minecraft:brown_mushroom_swamp",
+      "minecraft:red_mushroom_swamp",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane_swamp",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:seagrass_swamp"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
   "starts": [
+    "minecraft:swamp_hut",
     "custom:village_swamp",
-	"minecraft:swamp_hut",
     "minecraft:mineshaft",
     "minecraft:ruined_portal_swamp"
   ],
   "spawners": {
-    "water_ambient": [
-      {
-        "type": "minecraft:cod",
-        "weight": 30,
-        "minCount": 3,
-        "maxCount": 6,
-		"nbt": {Glowing:1b"}
-      }
-    ],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      }
-    ],
-    "misc": [],
-    "water_creature": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-	  {
-        "type": "minecraft:mooshroom",
-        "weight": 50,
-        "minCount": 1,
-        "maxCount": 3
-      }
-    ],
     "monster": [
       {
         "type": "minecraft:spider",
@@ -108,89 +125,61 @@
       },
       {
         "type": "minecraft:slime",
-        "weight": 15,
+        "weight": 1,
         "minCount": 1,
         "maxCount": 1
       }
-    ]
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "weight": 30,
+        "minCount": 3,
+        "maxCount": 6
+      }
+    ],
+    "misc": []
   },
   "spawn_costs": {},
-  "sky_color": 7575171,
-  "surface_builder": "custom:swamp",
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
-    ],
-    [],
-    [
-      "minecraft:fossil",
-      "minecraft:monster_room"
-    ],
-    [],
-    [],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-      "minecraft:ore_lapis",
-      "minecraft:disk_clay"
-    ],
-    [],
-    [
-      "custom:swamp_tree",
-	  "custom:swamp_tree_big",
-      "minecraft:flower_swamp",
-      "minecraft:patch_dead_bush",
-      "minecraft:patch_waterlilly",
-      "minecraft:brown_mushroom_swamp",
-      "minecraft:red_mushroom_swamp",
-      "minecraft:brown_mushroom_giant",
-      "minecraft:red_mushroom_giant",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_swamp",
-      "minecraft:patch_pumpkin",
-      "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "minecraft:seagrass_swamp"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "scale": 0.1,
-  "temperature": 0.8,
-  "downfall": 0.9,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "fog_color": 9419608,
-    "water_color": 6716746,
-    "water_fog_color": 6519827,
-	"particle": {
-      "options": {
-        "type": "minecraft:end_rod"
-      },
-      "probability": 0.0018093334
-    }
-  },
   "precipitation": "rain",
+  "temperature": 1.5,
+  "downfall": 0.1,
   "category": "swamp",
-  "depth": -0.2
+  "depth": -0.2,
+  "scale": 0.1
 }
