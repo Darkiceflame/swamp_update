@@ -1,0 +1,60 @@
+{
+  "name": "custom:village/swamp/town_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "custom:village/swamp/town_centers/swamp_meeting_point_1",
+        "processors": "minecraft:mossify_20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "custom:village/swamp/town_centers/swamp_meeting_point_2",
+        "processors": "minecraft:mossify_20_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "custom:village/swamp/town_centers/swamp_meeting_point_3",
+        "processors": "minecraft:mossify_70_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "custom:village/swamp/zombie/town_centers/swamp_meeting_point_1",
+        "processors": "custom:zombie_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "custom:village/swamp/zombie/town_centers/swamp_meeting_point_2",
+        "processors": "custom:zombie_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "custom:village/swamp/zombie/town_centers/swamp_meeting_point_3",
+        "processors": "custom:zombie_swamp",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}
